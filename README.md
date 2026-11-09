@@ -15,6 +15,8 @@ Knowledge base berbahasa Indonesia tentang **AI agents, Codex, Agent Skills, too
 | Workflows | [Game asset pipeline](04-workflows/game-asset-pipeline.md) |
 | Prompts | [Resep prompt siap salin](05-prompts/recipes.md) |
 | Troubleshooting | [Masalah umum dan solusinya](06-troubleshooting/common-issues.md) |
+| IT Engineering | [Handbook 140 istilah + kamus A–Z](07-it-engineering/README.md) |
+| Vibe Coding Safety | [Checklist production & prompt audit](08-vibecoding-safety/README.md) |
 | Custom Skills | [Merancang skill sendiri](custom-skills/README.md) |
 
 ## Cara memakai repository ini
@@ -22,9 +24,13 @@ Knowledge base berbahasa Indonesia tentang **AI agents, Codex, Agent Skills, too
 1. Pelajari konsep di **Fundamentals**.
 2. Periksa kemampuan Codex di **Setup**.
 3. Pilih workflow lalu adaptasi prompt.
-4. Catat hasil pengujian sendiri; jangan menyamakan contoh dengan fitur yang sudah terbukti di lingkungan lokal.
+4. Pelajari [IT Engineering Handbook](07-it-engineering/README.md) sesuai kebutuhan proyek; cari istilah di [kamus A–Z](07-it-engineering/glossary-a-z.md).
+5. Gunakan [Vibe Coding Safety](08-vibecoding-safety/README.md) untuk mereview, menguji dan mendokumentasikan risiko sebelum deployment.
+6. Catat hasil pengujian sendiri; jangan menyamakan contoh dengan fitur yang sudah terbukti di lingkungan lokal.
 
 **Label informasi:** *Verified (documentation)* = didukung dokumentasi; *Needs testing* = perlu diuji di environment; *Example* = rancangan workflow.
+
+> **AI coding bukan jaminan keamanan.** Checklist dan audit AI hanya membantu menemukan risiko; validasi, pengujian, dan review tetap diperlukan.
 
 ## Referensi
 
@@ -33,5 +39,7 @@ Knowledge base berbahasa Indonesia tentang **AI agents, Codex, Agent Skills, too
 - [OpenAI Skills](https://github.com/openai/skills)
 - [ImageGen skill sample](https://github.com/openai/codex/blob/main/codex-rs/skills/src/assets/samples/imagegen/SKILL.md)
 - [Agent Skills specification](https://agentskills.io/)
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
 
-Terakhir disusun: **2026-11-06**. Dokumentasi ini berkembang dan perlu ditinjau ulang saat fitur agent berubah.
+Terakhir disusun: **2026-11-09**. Dokumentasi ini berkembang dan perlu ditinjau ulang saat fitur agent berubah.
